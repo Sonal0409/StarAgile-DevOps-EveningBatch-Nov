@@ -33,10 +33,11 @@ Once Accesskey and secret key is created in AWS – IAM
 Go and configure it on the terraform VM
 
 Install awscli on the VM
-# apt-get update
-# apt-get install awscli -y
-# aws configure
-
+###
+apt-get update
+apt-get install awscli -y
+aws configure
+###
 Give the valid access key
 
 Give the valid secret key
